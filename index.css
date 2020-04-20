@@ -1,0 +1,56 @@
+html,
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.files-container {
+  margin: 20px auto;
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px;
+  overflow: hidden;
+}
+
+.files-container h1 {
+  margin: 10px;
+  text-align: center;
+}
+
+.files-list ul {
+  display: flex;
+  height: 200px;
+  background-color: #fff;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px;
+}
+
+.files-list ul li {
+  height: 160px;
+  margin: 0 20px;
+}
+
+img {
+  height: 100%;
+}
+
+.img-list {
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  transition: all ease 1s;
+}
+
+.img-list li {
+  height: 50%;
+  margin: 10px;
+}
